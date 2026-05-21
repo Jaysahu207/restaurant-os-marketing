@@ -17,7 +17,7 @@ export default function PrivacyPolicyPage() {
       icon: Database,
       title: "Information We Collect",
       content:
-        "We collect information such as restaurant details, user accounts, billing data, device information, and usage analytics to provide and improve RestaurantOS services.",
+        "We collect information such as restaurant details, user accounts, billing data, device information, and usage analytics to provide and improve our services.",
     },
     {
       icon: Lock,
@@ -29,13 +29,13 @@ export default function PrivacyPolicyPage() {
       icon: Eye,
       title: "How We Use Information",
       content:
-        "Your information is used to operate RestaurantOS features including QR ordering, billing, analytics, customer management, and support services.",
+        "Your information is used to operate QRasoi features including QR ordering, billing, analytics, customer management, and support services.",
     },
     {
       icon: Globe,
       title: "Third-Party Services",
       content:
-        "RestaurantOS may integrate with payment gateways, analytics tools, and communication providers to enhance platform functionality and restaurant operations.",
+        "QRasoi may integrate with payment gateways, analytics tools, and communication providers to enhance platform functionality and restaurant operations.",
     },
     {
       icon: ShieldCheck,
@@ -80,8 +80,8 @@ export default function PrivacyPolicyPage() {
 
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-gray-600">
               Your privacy matters to us. This Privacy Policy explains how
-              RestaurantOS collects, uses, protects, and manages your
-              information when using our platform and services.
+              QRasoi collects, uses, protects, and manages your information when
+              using our platform and services.
             </p>
 
             <div className="mt-6 text-sm text-gray-500">
@@ -131,9 +131,9 @@ export default function PrivacyPolicyPage() {
               </h2>
 
               <p className="mt-5 text-lg leading-relaxed text-orange-50">
-                RestaurantOS is committed to maintaining transparency,
-                protecting restaurant data, and ensuring secure digital
-                operations for businesses of all sizes.
+                QRasoi is committed to maintaining transparency, protecting
+                restaurant data, and ensuring secure digital operations for
+                businesses of all sizes.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">

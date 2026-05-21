@@ -24,7 +24,7 @@ const features = [
     icon: Wallet,
     title: "Smart Billing & Payments",
     description:
-      "Accept UPI, cash, cards, and online payments with fast invoice generation and payment tracking.",
+      "Accept UPI, cash, QR codes, and online payments with fast invoice generation and payment tracking.",
   },
   {
     icon: BarChart3,
@@ -60,7 +60,7 @@ const features = [
     icon: Smartphone,
     title: "Mobile Friendly",
     description:
-      "Use your Restaurant OS seamlessly on mobile, tablet, desktop, and POS devices.",
+      "Use your QRasoi seamlessly on mobile, tablet, desktop, and POS devices.",
   },
   {
     icon: ChefHat,

@@ -6,9 +6,9 @@ import Link from "next/link";
 
 const faqs = [
   {
-    question: "What is Restaurant OS?",
+    question: "What is QRasoi and how does it work?",
     answer:
-      "Restaurant OS is an all-in-one restaurant management platform that helps restaurants manage QR ordering, billing, kitchen operations, payments, analytics, inventory, and customer management from a single dashboard.",
+      "QRasoi is an all-in-one restaurant management platform that helps restaurants manage QR ordering, billing, kitchen operations, payments, analytics, inventory, and customer management from a single dashboard.",
   },
   {
     question: "Do customers need to install an app?",
@@ -18,7 +18,7 @@ const faqs = [
   {
     question: "Can I accept UPI and online payments?",
     answer:
-      "Yes. Restaurant OS supports UPI, cards, cash, wallets, and online payment gateway integrations for smooth billing and payment processing.",
+      "Yes. Our platform supports UPI,  cash, QR codes, and online payment gateway integrations for smooth billing and payment processing.",
   },
   {
     question: "Is the system suitable for small restaurants and cafes?",
@@ -31,7 +31,7 @@ const faqs = [
       "Yes. Our Professional and Enterprise plans support multi-outlet management with centralized analytics and reporting.",
   },
   {
-    question: "Does Restaurant OS support inventory management?",
+    question: "Does QRasoi support inventory management?",
     answer:
       "Yes. You can track stock levels, ingredient usage, wastage, vendors, and inventory reports in real-time.",
   },
@@ -76,8 +76,8 @@ const FAQSection = () => {
           </h2>
 
           <p className="mt-6 text-lg leading-relaxed text-gray-600">
-            Find answers to common questions about Restaurant OS, pricing,
-            onboarding, features, and restaurant management automation.
+            Find answers to common questions about QRasoi, pricing, onboarding,
+            features, and restaurant management automation.
           </p>
         </div>
 
@@ -156,8 +156,8 @@ const FAQSection = () => {
             </h3>
 
             <p className="mt-4 text-lg text-gray-600">
-              Our team is here to help you understand how Restaurant OS can
-              transform your restaurant operations.
+              Our team is here to help you understand how QRasoi can transform
+              your restaurant operations.
             </p>
             <Link href={"/contact"}>
               <button className="mt-8 rounded-2xl bg-gradient-to-r from-orange-500 to-orange-600 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-orange-300">

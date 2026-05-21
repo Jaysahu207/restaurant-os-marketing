@@ -21,19 +21,19 @@ export default function AboutPage() {
           </Link>
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-100 px-5 py-2 text-sm font-semibold text-orange-700">
-              Built For Modern Restaurants
+              Built For Restaurants
             </div>
 
             <h1 className="text-5xl font-black leading-tight tracking-tight text-gray-900 sm:text-6xl lg:text-7xl">
               About
               <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
                 {" "}
-                RestaurantOS
+                QRasoi
               </span>
             </h1>
 
             <p className="mx-auto mt-8 max-w-3xl text-lg leading-relaxed text-gray-600 sm:text-xl">
-              RestaurantOS is a modern restaurant operating platform designed to
+              QRasoi is a modern restaurant operating platform designed to
               simplify ordering, billing, kitchen management, and customer
               experience using smart QR-based technology and automation.
             </p>
@@ -54,16 +54,15 @@ export default function AboutPage() {
             </h2>
 
             <p className="mt-6 text-lg leading-relaxed text-gray-600">
-              We created RestaurantOS to help restaurants manage daily
-              operations more efficiently with modern technology. From QR code
-              ordering to billing and real-time order tracking, our goal is to
-              make restaurant management simpler, faster, and smarter.
+              We created QRasoi to help restaurants manage daily operations more
+              efficiently with modern technology. From QR code ordering to
+              billing and real-time order tracking, our goal is to make
+              restaurant management simpler, faster, and smarter.
             </p>
 
             <p className="mt-5 text-lg leading-relaxed text-gray-600">
-              Whether it is a small cafe, food truck, cloud kitchen, or a
-              multi-outlet restaurant chain, RestaurantOS is built to scale with
-              your business.
+              Whether it is a Cafe's, Restaurants or a food truck, QRasoi is
+              built to scale with your business.
             </p>
 
             <div className="mt-10 grid grid-cols-2 gap-5">
@@ -89,7 +88,7 @@ export default function AboutPage() {
                 <div className="space-y-6">
                   <div>
                     <p className="text-sm uppercase tracking-widest text-orange-100">
-                      RestaurantOS Mission
+                      QRasoi Mission
                     </p>
 
                     <h3 className="mt-3 text-3xl font-black leading-tight">
@@ -190,8 +189,8 @@ export default function AboutPage() {
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-orange-50">
-              Start using RestaurantOS and simplify your restaurant operations
-              with QR ordering, billing, analytics, and automation.
+              Start using QRasoi and simplify your restaurant operations with QR
+              ordering, billing, analytics, and automation.
             </p>
 
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

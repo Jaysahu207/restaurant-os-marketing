@@ -100,6 +100,9 @@ const CTASection = () => {
                   "Kitchen Display System",
                   "Smart Billing & UPI Payments",
                   "Real-Time Restaurant Analytics",
+                  "Inventory Management",
+                  "Table Management",
+                  "Customer Management",
                 ].map((item, index) => (
                   <div key={index} className="flex items-center gap-3">
                     <div className="flex h-7 w-7 items-center justify-center rounded-full bg-white text-orange-600 shadow-md">
@@ -136,7 +139,7 @@ const CTASection = () => {
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm font-medium text-orange-500">
-                      Restaurant OS
+                      QRasoi Feature Spotlight
                     </p>
 
                     <h3 className="mt-1 text-3xl font-bold text-gray-900">

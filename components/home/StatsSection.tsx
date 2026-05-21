@@ -65,8 +65,9 @@ const StatsSection = () => {
           </h2>
 
           <p className="mt-6 text-lg leading-relaxed text-gray-600">
-            Restaurant OS helps restaurants automate operations, improve
-            customer experience, and grow faster with powerful technology.
+            QRasoi is the all-in-one restaurant management platform that helps
+            you run your business more efficiently and profitably. With our
+            suite of tools for QR ordering, billing, analytics, and inventory
           </p>
         </div>
 

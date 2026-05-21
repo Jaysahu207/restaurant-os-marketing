@@ -11,7 +11,7 @@ const testimonials = [
     image:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400&auto=format&fit=crop",
     review:
-      "Restaurant OS completely transformed our operations. QR ordering reduced waiter workload and increased customer satisfaction significantly.",
+      "QRasoi completely transformed our operations. QR ordering reduced waiter workload and increased customer satisfaction significantly.",
   },
   {
     name: "Priya Verma",
@@ -75,8 +75,10 @@ const TestimonialSection = () => {
           </h2>
 
           <p className="mt-6 text-lg leading-relaxed text-gray-600">
-            Thousands of restaurants are using Restaurant OS to automate
-            operations, improve customer experience, and grow revenue faster.
+            Hear from our satisfied customers who have transformed their
+            restaurant operations with QRasoi. From small cafes to large
+            restaurant chains, our platform has helped businesses of all sizes
+            streamline their processes and boost their success.
           </p>
         </div>
 

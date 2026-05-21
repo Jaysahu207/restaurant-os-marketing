@@ -73,7 +73,7 @@ export default function SupportPage() {
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-100 px-5 py-2 text-sm font-semibold text-orange-700">
               <Sparkles className="h-4 w-4" />
-              RestaurantOS Support Center
+              QRasoi Support Center
             </div>
 
             <h1 className="text-5xl font-black leading-tight text-gray-900 md:text-7xl">
@@ -92,19 +92,12 @@ export default function SupportPage() {
             {/* Buttons */}
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
-                href="#contact-support"
+                href="/contact"
                 className="group inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-orange-500 to-orange-600 px-8 py-4 text-base font-bold text-white shadow-xl transition-all duration-300 hover:scale-105"
               >
                 Contact Support
                 <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
-
-              <Link
-                href="/faq"
-                className="inline-flex items-center justify-center rounded-2xl border border-orange-200 bg-white px-8 py-4 text-base font-bold text-gray-700 shadow-sm transition-all duration-300 hover:border-orange-300 hover:text-orange-600"
-              >
-                View FAQs
-              </Link>
             </div>
           </div>
         </div>
@@ -211,7 +204,7 @@ export default function SupportPage() {
                   <div>
                     <p className="text-sm text-gray-500">Email Support</p>
                     <h4 className="text-lg font-bold text-gray-900">
-                      support@restaurantos.com
+                      support@qrasoi.com
                     </h4>
                   </div>
                 </div>
@@ -243,9 +236,8 @@ export default function SupportPage() {
                 </div>
               </div>
             </div>
-
-            {/* RIGHT
-            <div className="rounded-[36px] border border-orange-100 bg-white/90 p-8 shadow-2xl backdrop-blur-xl md:p-10">
+            {/* RIGHT */}
+            {/* <div className="rounded-[36px] border border-orange-100 bg-white/90 p-8 shadow-2xl backdrop-blur-xl md:p-10">
               <h3 className="text-3xl font-black text-gray-900">
                 Send Us A Message
               </h3>

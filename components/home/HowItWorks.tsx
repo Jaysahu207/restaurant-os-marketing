@@ -38,7 +38,7 @@ const steps = [
     id: "04",
     title: "Accept Payments",
     description:
-      "Customers can pay using UPI, cash, cards, or online payment gateways with real-time tracking.",
+      "Customers can pay using UPI, cash, or QR code-based payments, all integrated seamlessly into your system.",
     icon: CreditCard,
   },
   {
@@ -69,12 +69,15 @@ const HowItWorks = () => {
           </div>
 
           <h2 className="text-4xl font-extrabold leading-tight text-gray-900 md:text-5xl">
-            How Our Restaurant OS Works
+            How Our QRasoi Works to Transform Your Restaurant Operations
           </h2>
 
           <p className="mt-6 text-lg leading-relaxed text-gray-600">
-            Manage orders, billing, QR menus, kitchen operations, payments,
-            analytics, and customer experience from one powerful platform.
+            QRasoi is the all-in-one restaurant management platform that helps
+            you run your business more efficiently and profitably. With our
+            suite of tools for QR ordering, billing, analytics, and inventory
+            management, you can streamline operations, boost sales, and create
+            an unforgettable dining experience for your customers.
           </p>
         </div>
 
@@ -121,7 +124,6 @@ const HowItWorks = () => {
         <div className="mt-20 text-center">
           <a
             href={APP_LINKS.redirectToApp}
-            target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-[320px]"
           >

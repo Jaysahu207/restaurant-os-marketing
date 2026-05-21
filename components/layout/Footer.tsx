@@ -24,6 +24,7 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { APP_LINKS } from "@/app/constants/links";
+import Image from "next/image";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -183,31 +184,29 @@ export default function Footer() {
           {/* BRAND */}
           <div className="lg:col-span-2">
             <Link href="/" className="inline-flex items-center gap-3">
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-500 to-orange-600 shadow-xl">
-                <svg
-                  className="h-7 w-7 text-white"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" />
-                </svg>
-              </div>
+              <Image
+                src="/logo.svg"
+                alt="QRasoi Logo"
+                width={200}
+                height={110}
+              />
 
-              <div>
+              {/* <div>
                 <h3 className="bg-gradient-to-r from-orange-600 to-orange-500 bg-clip-text text-2xl font-black text-transparent">
-                  RestaurantOS
+                  QRasoi
                 </h3>
 
                 <p className="text-sm font-semibold text-orange-600">
                   Smart Restaurant Platform
                 </p>
-              </div>
+              </div> */}
             </Link>
 
             <p className="mt-6 max-w-md text-[15px] leading-7 text-gray-600">
-              RestaurantOS helps restaurants manage QR ordering, billing,
-              kitchen workflows, payments, analytics, and customer experiences
-              from one modern dashboard.
+              QRasoi is an all-in-one restaurant management platform that helps
+              restaurants manage QR ordering, billing, kitchen workflows,
+              payments, analytics, and customer experiences from one modern
+              dashboard.
             </p>
 
             {/* CONTACT */}
@@ -216,7 +215,7 @@ export default function Footer() {
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-100 text-orange-600">
                   <Mail className="h-4 w-4" />
                 </div>
-                support@restaurantos.com
+                support@qrasoi.com
               </div>
 
               <div className="flex items-center gap-3 text-sm text-gray-600">
@@ -381,7 +380,7 @@ export default function Footer() {
 
             <p className="mt-4 text-sm leading-7 text-gray-500">
               © {currentYear}{" "}
-              <span className="font-bold text-gray-700">RestaurantOS</span>. All
+              <span className="font-bold text-gray-700">QRasoi</span>. All
               rights reserved. Built with ❤️ for modern restaurants worldwide.
             </p>
           </div>

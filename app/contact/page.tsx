@@ -95,7 +95,7 @@ export default function ContactPage() {
             <div>
               <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-100 px-4 py-2 text-sm font-semibold text-orange-700">
                 <MessageCircle className="h-4 w-4" />
-                Contact RestaurantOS
+                Contact QRasoi
               </div>
 
               <h1 className="text-5xl font-black leading-tight text-gray-900 md:text-6xl">
@@ -107,9 +107,9 @@ export default function ContactPage() {
               </h1>
 
               <p className="mt-6 max-w-2xl text-lg leading-relaxed text-gray-600">
-                Have questions about RestaurantOS? Want a demo or custom
-                solution for your restaurant business? Our team is here to help
-                you grow faster with modern restaurant technology.
+                Have questions about QRasoi? Want a demo or custom solution for
+                your restaurant business? Our team is here to help you grow
+                faster with modern restaurant technology.
               </p>
 
               {/* Contact Info */}
@@ -118,7 +118,7 @@ export default function ContactPage() {
                   {
                     icon: Mail,
                     title: "Email Us",
-                    value: "support@restaurantos.com",
+                    value: "support@qrasoi.com",
                   },
                   {
                     icon: Phone,
@@ -337,7 +337,7 @@ export default function ContactPage() {
             <div className="mx-auto max-w-3xl text-center">
               <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-orange-100 px-4 py-2 text-sm font-semibold text-orange-700">
                 <Globe className="h-4 w-4" />
-                Why Choose RestaurantOS
+                Why Choose QRasoi
               </div>
 
               <h2 className="text-4xl font-black text-gray-900 md:text-5xl">
@@ -346,7 +346,7 @@ export default function ContactPage() {
 
               <p className="mt-6 text-lg leading-relaxed text-gray-600">
                 From QR ordering and billing to kitchen management and
-                analytics, RestaurantOS helps restaurants simplify operations
+                analytics, QRasoi helps restaurants simplify operations
                 and improve customer experience.
               </p>
             </div>

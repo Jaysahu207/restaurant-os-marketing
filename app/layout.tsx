@@ -6,8 +6,8 @@ import Footer from "@/components/layout/Footer";
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
-  title: "RestaurantOS",
-  description: "Modern QR Ordering & Restaurant Management SaaS Platform",
+  title: "QRasoi",
+  description: "Modern QR Ordering & Restaurant Management Software",
 };
 
 export default function RootLayout({

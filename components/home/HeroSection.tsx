@@ -192,7 +192,7 @@ export default function HeroSection() {
                   </div>
 
                   <div className="rounded-full bg-orange-100 px-4 py-1 text-xs font-semibold text-orange-700">
-                    RestaurantOS Dashboard
+                    QRasoi Dashboard
                   </div>
                 </div>
 

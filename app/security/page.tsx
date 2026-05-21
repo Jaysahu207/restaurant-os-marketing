@@ -88,8 +88,8 @@ export default function SecurityPage() {
             </h1>
 
             <p className="mx-auto mt-8 max-w-3xl text-lg leading-relaxed text-gray-600 md:text-xl">
-              Security and reliability are built into every part of RestaurantOS
-              to help restaurants operate confidently and securely.
+              Security and reliability are built into every part of QRasoi to
+              help restaurants operate confidently and securely.
             </p>
 
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -169,7 +169,7 @@ export default function SecurityPage() {
               </h2>
 
               <p className="mt-6 text-lg leading-relaxed text-gray-600">
-                RestaurantOS is designed with secure infrastructure, encrypted
+                QRasoi is designed with secure infrastructure, encrypted
                 communication, protected authentication systems, and reliable
                 operational monitoring.
               </p>
@@ -251,7 +251,7 @@ export default function SecurityPage() {
 
             <p className="mx-auto mt-6 max-w-2xl text-lg text-orange-100">
               Protect your restaurant operations, customer data, and business
-              workflows with RestaurantOS.
+              workflows with QRasoi&apos;s cutting-edge security features.
             </p>
 
             <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">

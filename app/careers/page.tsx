@@ -79,7 +79,7 @@ export default function CareersPage() {
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-100 px-5 py-2 text-sm font-semibold text-orange-700">
               <Sparkles className="h-4 w-4" />
-              Join The RestaurantOS Team
+              Join The QRasoi Team
             </div>
 
             <h1 className="text-5xl font-black leading-tight text-gray-900 md:text-7xl">
@@ -124,9 +124,9 @@ export default function CareersPage() {
             </h2>
 
             <p className="mt-6 text-lg leading-relaxed text-gray-600">
-              At RestaurantOS, you’ll work on meaningful products, collaborate
-              with passionate people, and help shape the future of digital
-              restaurant operations.
+              At QRasoi, you’ll work on meaningful products, collaborate with
+              passionate people, and help shape the future of digital restaurant
+              operations.
             </p>
           </div>
 
@@ -277,7 +277,7 @@ export default function CareersPage() {
                 href="mailto:careers@restaurantos.com"
                 className="rounded-2xl bg-white px-8 py-4 text-lg font-bold text-orange-600 transition-all duration-300 hover:scale-105"
               >
-                careers@restaurantos.com
+                careers@qrasoi.com
               </a>
 
               <Link
