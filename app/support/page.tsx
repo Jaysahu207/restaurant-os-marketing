@@ -37,7 +37,7 @@ export default function SupportPage() {
     {
       title: "Technical Support",
       description:
-        "Facing technical issues? Our technical team is available to assist you.",
+        "Facing technical issues? Our technical team is available to assist you with your QRasoi setup.",
       icon: Headphones,
       action: "Get Technical Help",
       href: "#",
