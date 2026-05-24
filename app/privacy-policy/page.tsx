@@ -17,31 +17,37 @@ export default function PrivacyPolicyPage() {
       icon: Database,
       title: "Information We Collect",
       content:
-        "We collect information such as restaurant details, user accounts, billing data, device information, and usage analytics to provide and improve our services.",
-    },
-    {
-      icon: Lock,
-      title: "How We Protect Your Data",
-      content:
-        "We use secure servers, encryption, authentication systems, and industry-standard security practices to protect your personal and business information.",
+        "We collect personal and business information such as restaurant details, user account credentials, billing data, device data, and usage analytics. When you connect your Google Account via OAuth 2.0, we collect and securely store your Gmail OAuth tokens to provide email features.",
     },
     {
       icon: Eye,
       title: "How We Use Information",
       content:
-        "Your information is used to operate QRasoi features including QR ordering, billing, analytics, customer management, and support services.",
-    },
-    {
-      icon: Globe,
-      title: "Third-Party Services",
-      content:
-        "QRasoi may integrate with payment gateways, analytics tools, and communication providers to enhance platform functionality and restaurant operations.",
+        "Your information is used to operate QRasoi features including QR ordering, billing, analytics, customer management, support services, and automation of restaurant marketing.",
     },
     {
       icon: ShieldCheck,
-      title: "Data Privacy Commitment",
+      title: "Google API Services User Data & Limited Use Disclosure",
       content:
-        "We never sell your data. Your information is handled responsibly and only used for delivering and improving our services.",
+        "QRasoi's use and transfer of information received from Google APIs to any other app will adhere to the Google API Services User Data Policy, including the Limited Use requirements. We strictly use your Gmail data ('gmail.send' scope) solely to allow restaurant owners to transmit transactional, onboarding, and promotional communications directly through their own email accounts.",
+    },
+    {
+      icon: Globe,
+      title: "Third-Party Services & Data Transfers",
+      content:
+        "QRasoi only transfers data to trusted third-party providers (like payment gateways and essential system hosting infrastructure) necessary to run basic restaurant software features. We never transfer data obtained through Google API connections to marketing networks, external analytics providers, data brokers, or third-party advertising platforms.",
+    },
+    {
+      icon: Lock,
+      title: "Data Protection, Retargeting, and Human Access",
+      content:
+        "We use secure servers, database encryption at rest, and strict authentication to protect your information. We do not use, transfer, or share data obtained through Google APIs for serving advertisements, including retargeting, personalized, or interest-based advertising. Furthermore, no human staff members are permitted to read your Gmail data unless you provide explicit consent to resolve a specific support issue, or it is necessary for security investigations.",
+    },
+    {
+      icon: Eye,
+      title: "AI & Machine Learning Restrictions",
+      content:
+        "We never sell your personal or restaurant business data. Information and communication contents handled through the Google API integration will never be transferred, sold, or utilized to create, train, or improve generalized machine learning or artificial intelligence models.",
     },
   ];
 

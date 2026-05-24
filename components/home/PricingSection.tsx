@@ -6,9 +6,12 @@ import { Check, Star, Sparkles, ArrowRight, BadgeCheck } from "lucide-react";
 const plans = [
   {
     name: "Starter",
-    price: "₹999",
-    description: "Perfect for small cafes and food stalls.",
+    price: "₹299",
+    oldPrice: "₹599",
+    description:
+      "Perfect for cafes, food stalls, and small restaurants starting digital ordering.",
     popular: false,
+
     features: [
       "QR Code Ordering",
       "Digital Menu",
@@ -17,44 +20,33 @@ const plans = [
       "Order Management",
       "1 Admin Account",
       "Basic Analytics",
+      "14 Days Free Trial",
+
     ],
   },
+
   {
-    name: "Professional",
-    price: "₹2,999",
-    description: "Best for growing restaurants and cafes.",
+    name: "Pro",
+    price: "₹699",
+    oldPrice: "₹1499",
+    description:
+      "Best for growing restaurants that need smart management and automation.",
     popular: true,
+
     features: [
       "Everything in Starter",
       "Advanced Billing & GST",
       "Kitchen Dashboard",
       "Inventory Management",
       "Customer CRM",
+      "Marketing Tools",
       "Staff Management",
       "Advanced Analytics",
       "Multiple Roles & Permissions",
       "Priority Support",
     ],
   },
-  {
-    name: "Enterprise",
-    price: "Custom",
-    description: "Built for restaurant chains and franchises.",
-    popular: false,
-    features: [
-      "Everything in Professional",
-      "Multi-Outlet Management",
-      "Centralized Dashboard",
-      "Vendor Management",
-      "Custom Integrations",
-      "Dedicated Account Manager",
-      "Cloud Backup & Security",
-      "Custom Reports",
-      "24/7 Premium Support",
-    ],
-  },
 ];
-
 const PricingSection = () => {
   return (
     <section
@@ -88,11 +80,10 @@ const PricingSection = () => {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`relative overflow-hidden rounded-[32px] border bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl ${
-                plan.popular
-                  ? "border-orange-500 shadow-orange-100"
-                  : "border-orange-100"
-              }`}
+              className={`relative overflow-hidden rounded-[32px] border bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl ${plan.popular
+                ? "border-orange-500 shadow-orange-100"
+                : "border-orange-100"
+                }`}
             >
               {/* Popular Badge */}
               {plan.popular && (
@@ -104,11 +95,10 @@ const PricingSection = () => {
               {/* Plan Header */}
               <div>
                 <div
-                  className={`mb-5 flex h-16 w-16 items-center justify-center rounded-2xl ${
-                    plan.popular
-                      ? "bg-gradient-to-br from-orange-500 to-orange-600 text-white"
-                      : "bg-orange-100 text-orange-600"
-                  }`}
+                  className={`mb-5 flex h-16 w-16 items-center justify-center rounded-2xl ${plan.popular
+                    ? "bg-gradient-to-br from-orange-500 to-orange-600 text-white"
+                    : "bg-orange-100 text-orange-600"
+                    }`}
                 >
                   <Star className="h-8 w-8" />
                 </div>
@@ -119,17 +109,23 @@ const PricingSection = () => {
 
                 <p className="mt-3 text-gray-600">{plan.description}</p>
 
-                <div className="mt-8 flex items-end gap-2">
+                <div className="mt-8 flex items-end gap-3">
+                  {plan.oldPrice && (
+                    <span className="text-2xl font-medium text-gray-400 line-through">
+                      {plan.oldPrice}
+                    </span>
+                  )}
+
                   <span className="text-5xl font-extrabold text-gray-900">
                     {plan.price}
                   </span>
 
-                  {plan.price !== "Custom" && (
-                    <span className="mb-1 text-gray-500">/month</span>
-                  )}
+                  <span className="mb-1 text-gray-500">/month</span>
                 </div>
               </div>
-
+              <div className="mt-4 inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-sm font-semibold text-green-700">
+                🚀 Limited Time Launch Offer
+              </div>
               {/* Divider */}
               <div className="my-8 h-px bg-gradient-to-r from-transparent via-orange-200 to-transparent"></div>
 
@@ -148,11 +144,10 @@ const PricingSection = () => {
 
               {/* CTA */}
               <button
-                className={`group mt-10 flex w-full items-center justify-center gap-3 rounded-2xl px-6 py-4 text-lg font-semibold transition-all duration-300 ${
-                  plan.popular
-                    ? "bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg hover:scale-[1.02] hover:shadow-orange-300"
-                    : "border border-orange-200 bg-orange-50 text-orange-600 hover:bg-orange-100"
-                }`}
+                className={`group mt-10 flex w-full items-center justify-center gap-3 rounded-2xl px-6 py-4 text-lg font-semibold transition-all duration-300 ${plan.popular
+                  ? "bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg hover:scale-[1.02] hover:shadow-orange-300"
+                  : "border border-orange-200 bg-orange-50 text-orange-600 hover:bg-orange-100"
+                  }`}
               >
                 {plan.price === "Custom" ? "Contact Sales" : "Get Started"}
 
