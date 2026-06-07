@@ -33,11 +33,10 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-          isScrolled
-            ? "bg-white/80 backdrop-blur-md border-b border-gray-200 shadow-sm"
-            : "bg-white border-b border-gray-100"
-        }`}
+        className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled
+          ? "bg-white/80 backdrop-blur-md border-b border-gray-200 shadow-sm"
+          : "bg-white border-b border-gray-100"
+          }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="h-16 flex items-center justify-between">
@@ -60,11 +59,10 @@ export default function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 relative group ${
-                    isActive(link.href)
-                      ? "text-orange-600"
-                      : "text-gray-700 hover:text-orange-600"
-                  }`}
+                  className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 relative group ${isActive(link.href)
+                    ? "text-orange-600"
+                    : "text-gray-700 hover:text-orange-600"
+                    }`}
                 >
                   {link.label}
                   {isActive(link.href) && (
@@ -117,19 +115,16 @@ export default function Navbar() {
               >
                 <div className="w-6 h-5 flex flex-col justify-between">
                   <span
-                    className={`h-0.5 w-full bg-gray-800 rounded-full transition-all duration-300 ${
-                      isOpen ? "rotate-45 translate-y-2" : ""
-                    }`}
+                    className={`h-0.5 w-full bg-gray-800 rounded-full transition-all duration-300 ${isOpen ? "rotate-45 translate-y-2" : ""
+                      }`}
                   />
                   <span
-                    className={`h-0.5 w-full bg-gray-800 rounded-full transition-all duration-300 ${
-                      isOpen ? "opacity-0" : ""
-                    }`}
+                    className={`h-0.5 w-full bg-gray-800 rounded-full transition-all duration-300 ${isOpen ? "opacity-0" : ""
+                      }`}
                   />
                   <span
-                    className={`h-0.5 w-full bg-gray-800 rounded-full transition-all duration-300 ${
-                      isOpen ? "-rotate-45 -translate-y-2" : ""
-                    }`}
+                    className={`h-0.5 w-full bg-gray-800 rounded-full transition-all duration-300 ${isOpen ? "-rotate-45 -translate-y-2" : ""
+                      }`}
                   />
                 </div>
               </button>
@@ -139,9 +134,8 @@ export default function Navbar() {
 
         {/* MOBILE MENU */}
         <div
-          className={`lg:hidden overflow-hidden transition-all duration-300 ${
-            isOpen ? "max-h-105" : "max-h-0"
-          }`}
+          className={`lg:hidden overflow-hidden transition-all duration-300 ${isOpen ? "max-h-105" : "max-h-0"
+            }`}
         >
           <nav className="px-4 py-4 space-y-2 bg-white border-t border-gray-100">
             {navLinks.map((link) => (
@@ -149,11 +143,10 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className={`block px-4 py-3 rounded-lg font-medium transition-all duration-300 ${
-                  isActive(link.href)
-                    ? "bg-orange-100 text-orange-600"
-                    : "text-gray-700 hover:bg-orange-50 hover:text-orange-600"
-                }`}
+                className={`block px-4 py-3 rounded-lg font-medium transition-all duration-300 ${isActive(link.href)
+                  ? "bg-orange-100 text-orange-600"
+                  : "text-gray-700 hover:bg-orange-50 hover:text-orange-600"
+                  }`}
               >
                 {link.label}
               </Link>

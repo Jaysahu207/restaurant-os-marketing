@@ -1,6 +1,8 @@
 "use client";
 
 import CTASection from "@/components/home/CTASection";
+import ExplainQRasoi from "@/components/home/explainQrasoi";
+
 import FAQSection from "@/components/home/FAQSection";
 import FeatureSection from "@/components/home/FeaturesSection";
 import HeroSection from "@/components/home/HeroSection";
@@ -14,6 +16,8 @@ export default function HomePage() {
     <main className="overflow-hidden">
       {/* Hero */}
       <HeroSection />
+
+      <ExplainQRasoi />
 
       {/* Social Proof / Trust */}
       <StatsSection />

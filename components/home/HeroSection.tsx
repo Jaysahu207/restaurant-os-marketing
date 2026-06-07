@@ -77,24 +77,27 @@ export default function HeroSection() {
 
             {/* Heading */}
             <div className="mt-8 space-y-6">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-[1.05] tracking-tight animate-fade-up animation-delay-200">
+              <h1 className="text-2xl sm:text-4xl lg:text-6xl font-black leading-[1.05] tracking-tight animate-fade-up animation-delay-200">
                 <span className="text-gray-900">
-                  Run Your
-                  <br />
                   Restaurant
+                  <br />
+                  Operating System
                 </span>
 
                 <br />
 
                 <span className="bg-gradient-to-r from-orange-500 via-orange-600 to-orange-400 bg-clip-text text-transparent">
-                  Smarter & Faster
+                  Built For Modern Restaurants
                 </span>
               </h1>
 
               <p className="max-w-2xl text-lg sm:text-xl leading-relaxed text-gray-600 animate-fade-up animation-delay-400">
-                Powerful QR ordering, billing, kitchen management, analytics,
-                inventory tracking, and customer engagement — all in one modern
-                platform built for restaurants.
+                QRasoi is an all-in-one Restaurant Operating System
+                ( Restaurant OS ) that helps restaurants, cafes, hotels,
+                food courts and cloud kitchens manage QR ordering,
+                billing, kitchen operations, inventory, customer
+                engagement, loyalty programs, analytics and marketing
+                from a single platform.
               </p>
             </div>
 
@@ -406,5 +409,9 @@ export default function HeroSection() {
         }
       `}</style>
     </section>
+
+
+
+
   );
 }

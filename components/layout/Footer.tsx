@@ -83,7 +83,7 @@ export default function Footer() {
     },
     {
       icon: FaInstagram,
-      href: "https://instagram.com",
+      href: "https://www.instagram.com/qrasoi.in?igsh=MzNzazYyNmwxeDUy",
       label: "Instagram",
     },
     {
