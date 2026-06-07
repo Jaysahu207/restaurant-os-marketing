@@ -11,8 +11,10 @@ import {
   Star,
   CheckCircle2,
   Users,
+
 } from "lucide-react";
 import { APP_LINKS } from "../../app/constants/links";
+import Link from "next/link";
 export default function HeroSection() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
@@ -99,6 +101,39 @@ export default function HeroSection() {
                 engagement, loyalty programs, analytics and marketing
                 from a single platform.
               </p>
+
+
+              <div className="mt-4 text-sm text-gray-600">
+                Explore our{" "}
+                <Link
+                  href="/restaurant-management-software"
+                  className="text-orange-600 font-semibold hover:underline"
+                >
+                  Restaurant Management Software
+                </Link>
+                ,{" "}
+                <Link
+                  href="/restaurant-pos-software"
+                  className="text-orange-600 font-semibold hover:underline"
+                >
+                  Restaurant POS Software
+                </Link>
+                ,{" "}
+                <Link
+                  href="/restaurant-billing-software"
+                  className="text-orange-600 font-semibold hover:underline"
+                >
+                  Restaurant Billing Software
+                </Link>
+                {" "}and{" "}
+                <Link
+                  href="/qr-ordering-system"
+                  className="text-orange-600 font-semibold hover:underline"
+                >
+                  QR Ordering System
+                </Link>
+                .
+              </div>
             </div>
 
             {/* Features */}
@@ -292,6 +327,7 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
+
 
       {/* ================= SCROLL INDICATOR ================= */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">

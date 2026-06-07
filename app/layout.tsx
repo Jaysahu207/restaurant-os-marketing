@@ -5,9 +5,11 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { Toaster } from "react-hot-toast";
 
-export const metadata: Metadata = {
-  title: "QRasoi",
-  description: "Modern QR Ordering & Restaurant Management Software",
+export const metadata = {
+  metadataBase: new URL("https://qrasoi.in"),
+  title: "QRasoi - Restaurant POS & QR Ordering Software",
+  description:
+    "Restaurant management software with QR ordering, billing, inventory and analytics.",
 };
 
 export default function RootLayout({

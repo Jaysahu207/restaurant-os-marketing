@@ -54,10 +54,30 @@ export default function Footer() {
 
   const footerLinks = {
     product: [
-      { label: "Features", href: "/features" },
-      { label: "Pricing", href: "/pricing" },
-      { label: "Security", href: "/security" },
-      { label: "FAQ", href: "/#faq" },
+      {
+        label: "Restaurant Management Software",
+        href: "/restaurant-management-software",
+      },
+      {
+        label: "Restaurant POS Software",
+        href: "/restaurant-pos-software",
+      },
+      {
+        label: "Restaurant Billing Software",
+        href: "/restaurant-billing-software",
+      },
+      {
+        label: "QR Ordering System",
+        href: "/qr-ordering-system",
+      },
+      {
+        label: "Pricing",
+        href: "/pricing",
+      },
+      {
+        label: "Features",
+        href: "/features",
+      },
     ],
 
     resources: [
