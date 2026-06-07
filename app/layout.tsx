@@ -7,7 +7,7 @@ import { Toaster } from "react-hot-toast";
 
 export const metadata = {
   metadataBase: new URL("https://qrasoi.in"),
-  title: "QRasoi - Restaurant POS & QR Ordering Software",
+  title: "QRasoi -QR Ordering & POS Software for Restaurants",
   description:
     "Restaurant management software with QR ordering, billing, inventory and analytics.",
 };
