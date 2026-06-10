@@ -118,7 +118,7 @@ export default function ContactPage() {
                   {
                     icon: Mail,
                     title: "Email Us",
-                    value: "support@qrasoi.com",
+                    value: "qrasoi.business@gmail.com",
                   },
                   {
                     icon: Phone,

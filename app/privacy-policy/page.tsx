@@ -8,6 +8,12 @@ import {
   Database,
   Globe,
   Mail,
+  ArrowRight,
+  CheckCircle2,
+  Settings2,
+  ShieldAlert,
+  ShieldQuestion,
+
   ArrowLeft,
 } from "lucide-react";
 
@@ -17,49 +23,77 @@ export default function PrivacyPolicyPage() {
       icon: Database,
       title: "Information We Collect",
       content:
-        "We collect personal and business information such as restaurant details, user account credentials, billing data, device data, and usage analytics. When you connect your Google Account via OAuth 2.0, we securely collect and store encrypted Gmail OAuth access and refresh tokens solely to provide authorized email sending functionality within QRasoi.",
+        "QRasoi collects information necessary to provide restaurant management services, including restaurant details, business information, user account details, billing information, device information, and usage analytics. When users connect Google services, QRasoi may collect Google account profile information and OAuth credentials required to enable authorized Google integrations.",
     },
+
+    {
+      icon: Database,
+      title: "Google User Data We Access",
+      content:
+        "When a restaurant owner signs in with Google or connects a Google Account, QRasoi may access the user's name, email address, profile picture, unique Google Account identifier, and OAuth credentials required for authentication and authorized Gmail functionality. QRasoi does not access Gmail inbox messages, email history, attachments, contacts, Google Calendar data, Google Drive files, or any other Google user data beyond the permissions explicitly granted by the user.",
+    },
+
     {
       icon: Eye,
       title: "How We Use Information",
       content:
-        "Your information is used to operate QRasoi features including QR ordering, billing, analytics, customer management, support services, restaurant operations, and automation of restaurant marketing communications. QRasoi only uses Gmail API access to send emails on behalf of connected restaurant owners.",
+        "Information collected by QRasoi is used to provide and improve restaurant operations, including QR ordering, billing, customer management, analytics, support services, account authentication, and platform functionality. Google user data is used solely for user authentication, account management, secure login, and enabling restaurant owners to send authorized customer communications through their connected Google account.",
     },
+
     {
       icon: ShieldCheck,
       title: "Google API Services User Data & Limited Use Disclosure",
       content:
-        "QRasoi's use and transfer of information received from Google APIs to any other application will adhere to the Google API Services User Data Policy, including the Limited Use requirements. We strictly use Gmail API access ('gmail.send' scope) solely to allow restaurant owners to send transactional, onboarding, billing, support, and promotional communications directly through their own Google accounts.",
+        "QRasoi's use and transfer of information received from Google APIs complies with the Google API Services User Data Policy, including the Limited Use requirements. Information obtained through Google APIs is only used to provide user-requested functionality and is never used for advertising, user profiling, creditworthiness determination, data brokerage, or any purpose unrelated to the operation of QRasoi services.",
     },
+
     {
       icon: Eye,
-      title: "Gmail Data Access Restrictions",
+      title: "Gmail Functionality & Data Access Restrictions",
       content:
-        "QRasoi does not read, access, analyze, monitor, or store users' personal Gmail inbox messages, email history, attachments, or contact lists. Gmail API access is used exclusively for authenticated outbound email sending initiated by the restaurant owner.",
+        "QRasoi uses Google's Gmail API exclusively to allow restaurant owners to send customer communications directly from their own connected Google account. These communications may include invoices, receipts, order confirmations, billing notifications, customer support messages, operational notifications, and promotional offers initiated by the restaurant owner. QRasoi does not read, monitor, analyze, process, store, or access Gmail inbox messages, drafts, email history, attachments, or contact lists.",
     },
+
     {
       icon: Globe,
-      title: "Third-Party Services & Data Transfers",
+      title: "Data Sharing Practices",
       content:
-        "QRasoi only transfers limited data to trusted third-party providers such as payment gateways, cloud hosting providers, infrastructure services, and essential operational tools necessary to run restaurant software features. We never transfer, sell, or share data obtained through Google API connections with advertising platforms, marketing networks, external analytics providers, or data brokers.",
+        "QRasoi does not sell, rent, trade, or share Google user data with advertisers, marketing platforms, data brokers, or unrelated third parties. Information may only be shared with trusted service providers such as cloud hosting providers, infrastructure providers, payment processors, and technical service providers strictly required to operate QRasoi services. These providers are contractually obligated to protect user data and may only process information on our behalf.",
     },
+
     {
       icon: Lock,
-      title: "Data Protection, Retargeting, and Human Access",
+      title: "Data Storage & Protection",
       content:
-        "We use secure servers, encryption at rest, HTTPS communication, access controls, and strict authentication measures to protect your information. QRasoi does not use Google API data for serving advertisements, retargeting, interest-based personalization, or user profiling. No human staff members are permitted to access Gmail-connected data unless explicit user consent is provided for support purposes or access is required for legal compliance or security investigations.",
+        "QRasoi protects user information using industry-standard security measures including HTTPS encryption, encrypted storage, secure access controls, authentication safeguards, server monitoring, and restricted personnel access. Google OAuth credentials are stored securely and are accessible only to authorized systems required to provide approved functionality.",
     },
+
+    {
+      icon: ShieldCheck,
+      title: "Data Retention & Deletion",
+      content:
+        "QRasoi retains user information and Google OAuth credentials only for as long as necessary to provide services, maintain account functionality, comply with legal obligations, resolve disputes, and enforce agreements. Users may request deletion of their account and associated data by contacting support@qrasoi.in. Upon verification, applicable user data and stored OAuth credentials will be permanently removed unless retention is required by law.",
+    },
+
     {
       icon: ShieldCheck,
       title: "Google Account Access Revocation",
       content:
-        "Users may revoke QRasoi's access to their Google account at any time through their QRasoi account settings or directly from their Google Account security settings. Once disconnected, Gmail API access tokens are disabled and email functionality is terminated.",
+        "Users may revoke QRasoi's access to their Google Account at any time through their QRasoi account settings or directly through Google Account Security settings. Once access is revoked, associated OAuth credentials become invalid and Google-connected functionality, including email sending, will no longer be available.",
     },
+
     {
       icon: Eye,
       title: "AI & Machine Learning Restrictions",
       content:
-        "QRasoi never sells personal, restaurant, or Google API-derived data. Information obtained through Google API integrations is never transferred, shared, or used to create, train, fine-tune, or improve generalized artificial intelligence or machine learning models.",
+        "QRasoi never sells personal information or Google API-derived data. Information obtained through Google APIs is never transferred, shared, or used to train, fine-tune, develop, or improve generalized artificial intelligence models, machine learning models, or automated decision-making systems.",
+    },
+
+    {
+      icon: Mail,
+      title: "Contact & Privacy Requests",
+      content:
+        "If you have questions regarding privacy, data protection, Google Account permissions, or wish to request deletion of your account or data, please contact us at support@qrasoi.in. We will respond to privacy-related requests within a reasonable timeframe and in accordance with applicable laws.",
     },
   ];
 

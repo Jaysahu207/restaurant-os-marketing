@@ -204,7 +204,7 @@ export default function SupportPage() {
                   <div>
                     <p className="text-sm text-gray-500">Email Support</p>
                     <h4 className="text-lg font-bold text-gray-900">
-                      support@qrasoi.com
+                      qrasoi.business@gmail.com
                     </h4>
                   </div>
                 </div>

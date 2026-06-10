@@ -19,37 +19,84 @@ export default function TermsOfServicePage() {
       icon: FileText,
       title: "Acceptance Of Terms",
       content:
-        "By accessing or using RestaurantOS, you agree to comply with these Terms of Service and all applicable laws and regulations.",
+        "By accessing or using QRasoi, you agree to be bound by these Terms of Service, our Privacy Policy, and all applicable laws and regulations. If you do not agree with these terms, you must discontinue use of the platform.",
     },
+
     {
       icon: ShieldCheck,
       title: "Account Responsibilities",
       content:
-        "You are responsible for maintaining the security of your account credentials and ensuring all information provided is accurate and up to date.",
+        "Users are responsible for maintaining the confidentiality of account credentials, safeguarding access to their accounts, and ensuring that all information provided to QRasoi is accurate, complete, and up to date.",
     },
+
+    {
+      icon: ShieldCheck,
+      title: "Google Account & OAuth Services",
+      content:
+        "Certain QRasoi features may require users to authenticate through Google Sign-In or connect Google services. By authorizing access, users grant QRasoi permission to access only the Google account data and permissions explicitly approved during the authorization process. Users may revoke access at any time through their Google Account settings.",
+    },
+
+    {
+      icon: Mail,
+      title: "Email Sending Functionality",
+      content:
+        "When users connect Gmail functionality, QRasoi may use Google's Gmail API solely to send authorized transactional, onboarding, billing, operational, and customer support communications on behalf of the authenticated user. QRasoi does not access or read personal inbox content, email history, attachments, or contacts.",
+    },
+
     {
       icon: CreditCard,
       title: "Subscriptions & Payments",
       content:
-        "Certain RestaurantOS features may require paid subscriptions. Subscription fees, billing cycles, and payment terms will be clearly communicated before purchase.",
+        "Certain QRasoi features may require paid subscriptions. Pricing, billing cycles, renewal terms, and payment obligations will be clearly disclosed before purchase. Failure to maintain active payments may result in limited access to premium services.",
     },
+
     {
       icon: Ban,
-      title: "Prohibited Usage",
+      title: "Acceptable Use Policy",
       content:
-        "Users may not misuse the platform, attempt unauthorized access, disrupt services, or use RestaurantOS for unlawful activities.",
+        "Users may not misuse the platform, attempt unauthorized access, interfere with platform security, distribute malicious software, violate applicable laws, send unlawful communications, or use QRasoi in a manner that harms other users or third parties.",
     },
+
     {
       icon: Scale,
       title: "Service Availability",
       content:
-        "We strive to maintain reliable uptime and uninterrupted access, but occasional maintenance, updates, or technical issues may temporarily affect services.",
+        "QRasoi strives to maintain reliable and uninterrupted service availability. However, maintenance activities, software updates, infrastructure issues, security incidents, or circumstances beyond our control may occasionally affect service availability.",
     },
+
+    {
+      icon: ShieldCheck,
+      title: "Data Protection & Privacy",
+      content:
+        "QRasoi processes user information in accordance with its Privacy Policy. We implement reasonable technical and organizational safeguards to protect user information, account credentials, and authorized Google account integrations.",
+    },
+
+    {
+      icon: Ban,
+      title: "Suspension & Termination",
+      content:
+        "QRasoi reserves the right to suspend or terminate accounts that violate these Terms, engage in fraudulent activity, abuse platform functionality, compromise system security, or violate applicable laws and regulations.",
+    },
+
+    {
+      icon: Scale,
+      title: "Intellectual Property",
+      content:
+        "All software, branding, content, designs, trademarks, and platform functionality provided by QRasoi remain the property of QRasoi or its licensors. Users may not copy, modify, distribute, reverse engineer, or exploit platform assets without prior written permission.",
+    },
+
     {
       icon: AlertTriangle,
       title: "Limitation Of Liability",
       content:
-        "RestaurantOS is provided on an 'as-is' basis. We are not liable for indirect damages, business interruptions, or losses arising from platform usage.",
+        "QRasoi is provided on an 'as-is' and 'as-available' basis. To the maximum extent permitted by law, QRasoi shall not be liable for indirect, incidental, special, consequential, or business-related losses arising from the use of the platform.",
+    },
+
+    {
+      icon: Scale,
+      title: "Changes To These Terms",
+      content:
+        "QRasoi may update these Terms of Service periodically to reflect changes in legal requirements, platform functionality, or business operations. Continued use of the platform following updates constitutes acceptance of the revised Terms.",
     },
   ];
 

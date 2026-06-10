@@ -235,7 +235,7 @@ export default function Footer() {
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-100 text-orange-600">
                   <Mail className="h-4 w-4" />
                 </div>
-                support@qrasoi.com
+                qrasoi.business@gmail.com
               </div>
 
               <div className="flex items-center gap-3 text-sm text-gray-600">
