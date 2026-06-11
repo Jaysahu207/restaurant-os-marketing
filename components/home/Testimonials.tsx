@@ -2,6 +2,13 @@
 
 import React from "react";
 import { Star, Quote, CheckCircle2, ArrowRight } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Testimonials",
+  description:
+    "Hear from our satisfied customers who have transformed their restaurant operations with QRasoi. From small cafes to large restaurant chains, our platform has helped businesses of all sizes streamline their processes and boost their success.",
+};
 
 const testimonials = [
   {

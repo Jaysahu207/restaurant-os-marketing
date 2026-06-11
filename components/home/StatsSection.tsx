@@ -9,7 +9,12 @@ import {
   Clock3,
   Wallet,
 } from "lucide-react";
-
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Statistics",
+  description:
+    "Discover key statistics about QRasoi's impact on restaurants, including user growth, order volume, efficiency improvements, and customer satisfaction ratings.",
+};
 const stats = [
   {
     icon: Users,

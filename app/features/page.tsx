@@ -13,6 +13,7 @@ import {
   ChefHat,
 } from "lucide-react";
 
+
 const features = [
   {
     icon: QrCode,

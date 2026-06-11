@@ -12,6 +12,14 @@ import {
   Smartphone,
   ChefHat,
 } from "lucide-react";
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Features",
+  description:
+    "Explore QR ordering, billing, inventory, CRM, analytics, loyalty programs and restaurant automation features.",
+};
 
 const features = [
   {

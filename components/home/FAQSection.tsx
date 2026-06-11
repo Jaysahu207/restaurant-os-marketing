@@ -3,6 +3,13 @@
 import React, { useState } from "react";
 import { ChevronDown, HelpCircle, Sparkles, MessageCircle } from "lucide-react";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "FAQ",
+  description:
+    "Find answers to common questions about QRasoi, pricing, onboarding, features, and restaurant management automation.",
+};
 
 const faqs = [
   {
@@ -89,9 +96,8 @@ const FAQSection = () => {
             return (
               <div
                 key={index}
-                className={`overflow-hidden rounded-3xl border bg-white shadow-sm transition-all duration-300 ${
-                  isOpen ? "border-orange-300 shadow-lg" : "border-orange-100"
-                }`}
+                className={`overflow-hidden rounded-3xl border bg-white shadow-sm transition-all duration-300 ${isOpen ? "border-orange-300 shadow-lg" : "border-orange-100"
+                  }`}
               >
                 {/* Question */}
                 <button
@@ -100,11 +106,10 @@ const FAQSection = () => {
                 >
                   <div className="flex items-start gap-4">
                     <div
-                      className={`flex h-12 w-12 items-center justify-center rounded-2xl transition-all duration-300 ${
-                        isOpen
+                      className={`flex h-12 w-12 items-center justify-center rounded-2xl transition-all duration-300 ${isOpen
                           ? "bg-orange-500 text-white"
                           : "bg-orange-100 text-orange-600"
-                      }`}
+                        }`}
                     >
                       <HelpCircle className="h-6 w-6" />
                     </div>
@@ -115,11 +120,10 @@ const FAQSection = () => {
                   </div>
 
                   <div
-                    className={`flex h-10 w-10 items-center justify-center rounded-full transition-all duration-300 ${
-                      isOpen
+                    className={`flex h-10 w-10 items-center justify-center rounded-full transition-all duration-300 ${isOpen
                         ? "rotate-180 bg-orange-500 text-white"
                         : "bg-orange-100 text-orange-600"
-                    }`}
+                      }`}
                   >
                     <ChevronDown className="h-5 w-5" />
                   </div>
@@ -127,9 +131,8 @@ const FAQSection = () => {
 
                 {/* Answer */}
                 <div
-                  className={`overflow-hidden transition-all duration-500 ease-in-out ${
-                    isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                  }`}
+                  className={`overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <div className="px-6 pb-6 md:px-8 md:pb-8">
                     <div className="ml-16 border-l-2 border-orange-100 pl-6">

@@ -9,7 +9,12 @@ import {
     Users,
     CheckCircle2,
 } from "lucide-react";
-
+import { Metadata } from "next";
+export const metadata: Metadata = {
+    title: "What is QRasoi?",
+    description:
+        "Learn about QRasoi, the all-in-one restaurant operating system that digitizes and automates restaurant operations including QR ordering, billing, kitchen management, inventory control, customer engagement, loyalty programs, analytics, and marketing.",
+};
 export default function ExplainQRasoi() {
     const features = [
         "QR Code Ordering",

@@ -14,6 +14,13 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { APP_LINKS } from "../../app/constants/links";
+import { Metadata } from "next";
+
+export const metadata : Metadata = {
+  title: "Call To Action",
+  description:
+    "Experience the future of restaurant management with QRasoi's smart QR ordering, kitchen automation, and seamless billing platform.",
+};
 
 const CTASection = () => {
   const flowSteps = [

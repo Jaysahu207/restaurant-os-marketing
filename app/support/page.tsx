@@ -16,6 +16,8 @@ import {
   Sparkles,
 } from "lucide-react";
 
+
+
 export default function SupportPage() {
   const supportCards = [
     {

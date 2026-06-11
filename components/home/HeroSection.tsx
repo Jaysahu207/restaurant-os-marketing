@@ -15,6 +15,13 @@ import {
 } from "lucide-react";
 import { APP_LINKS } from "../../app/constants/links";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Restaurant Management Software & QR Ordering System",
+  description:
+    "Manage QR ordering, billing, inventory, CRM and restaurant operations with QRasoi.",
+};
 export default function HeroSection() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
@@ -101,14 +108,7 @@ export default function HeroSection() {
                 engagement, loyalty programs, analytics and marketing
                 from a single platform.
               </p>
-              <div className="mt-4 rounded-xl border border-orange-200 bg-orange-50 p-4">
-                <p className="text-sm text-gray-700">
-                  QRasoi also allows restaurant owners to securely connect their
-                  Gmail account to send invoices, customer notifications,
-                  loyalty rewards and marketing emails directly from their own
-                  business email address.
-                </p>
-              </div>
+
 
               <div className="mt-4 text-sm text-gray-600">
                 Explore our{" "}

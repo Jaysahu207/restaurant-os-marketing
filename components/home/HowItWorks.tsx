@@ -11,6 +11,13 @@ import {
 } from "lucide-react";
 
 import { APP_LINKS } from "../../app/constants/links";
+import { Metadata } from "next";
+
+export const metadata : Metadata = {
+  title: "How It Works",
+  description:
+    "Discover how QRasoi's all-in-one restaurant management platform streamlines operations with QR ordering, kitchen automation, and seamless billing to boost efficiency and profits.",
+};
 
 const steps = [
   {

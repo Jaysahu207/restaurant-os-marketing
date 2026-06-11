@@ -1,3 +1,5 @@
+
+
 const blogs = [
   {
     id: 1,
@@ -66,6 +68,9 @@ const blogs = [
     readTime: "9 min read",
   },
 ];
+
+
+
 
 export default function BlogPage() {
   return (

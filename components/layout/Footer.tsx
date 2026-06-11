@@ -25,6 +25,13 @@ import {
 } from "react-icons/fa";
 import { APP_LINKS } from "@/app/constants/links";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Footer",
+  description:
+    "Explore QRasoi's restaurant management platform with QR ordering, billing, kitchen automation, and analytics. Contact us for a demo or free trial.",
+};
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -84,7 +91,7 @@ export default function Footer() {
       { label: "Blogs", href: "/blogs" },
       { label: "Support", href: "/support" },
       { label: "Contact", href: "/contact" },
-      { label: "Help Center", href: "/support" },
+      // { label: "Help Center", href: "/support" },
     ],
 
     company: [
@@ -205,10 +212,10 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="inline-flex items-center gap-3">
               <Image
-                src="/logo.svg"
+                src="/logo.QRasoi.png"
                 alt="QRasoi Logo"
-                width={200}
-                height={110}
+                width={150}
+                height={100}
               />
 
               {/* <div>

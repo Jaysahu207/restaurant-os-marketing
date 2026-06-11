@@ -17,6 +17,7 @@ import {
   ArrowLeft,
 } from "lucide-react";
 
+
 export default function PrivacyPolicyPage() {
   const sections = [
     {

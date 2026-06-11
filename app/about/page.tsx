@@ -1,6 +1,7 @@
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { APP_LINKS } from "../../app/constants/links";
+
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-white via-orange-50 to-white text-gray-900">

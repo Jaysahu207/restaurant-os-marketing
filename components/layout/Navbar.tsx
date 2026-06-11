@@ -5,6 +5,13 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { APP_LINKS } from "../../app/constants/links";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Navbar",
+  description:
+    "Explore QRasoi's restaurant management platform with QR ordering, billing, kitchen automation, and analytics. Contact us for a demo or free trial.",
+};
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,10 +51,10 @@ export default function Navbar() {
 
             <Link href="/" className="flex items-center group">
               <Image
-                src="/logo.svg"
+                src="/cannva.png"
                 alt="Qrasoi Logo"
-                width={110}
-                height={110}
+                width={120}
+                height={50}
                 priority
                 className="object-contain transition-transform duration-300 group-hover:scale-105"
               />

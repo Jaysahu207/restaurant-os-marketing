@@ -2,6 +2,12 @@
 
 import React from "react";
 import { Check, Star, Sparkles, ArrowRight, BadgeCheck } from "lucide-react";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Pricing",
+  description:
+    "Affordable restaurant management software plans for cafes, restaurants and food businesses.",
+};
 
 const plans = [
   {
