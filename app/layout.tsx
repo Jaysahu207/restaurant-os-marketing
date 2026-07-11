@@ -5,8 +5,6 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { Toaster } from "react-hot-toast";
 
-
-
 export const metadata: Metadata = {
   metadataBase: new URL("https://qrasoi.in"),
 
@@ -65,8 +63,7 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title:
-      "QRasoi - Restaurant Management Software, QR Ordering & POS System",
+    title: "QRasoi - Restaurant Management Software, QR Ordering & POS System",
     description:
       "Streamline restaurant operations with QR ordering, billing, inventory management, CRM, loyalty programs and advanced analytics.",
     url: "https://qrasoi.in",
@@ -85,8 +82,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title:
-      "QRasoi - Restaurant Management Software, QR Ordering & POS System",
+    title: "QRasoi - Restaurant Management Software, QR Ordering & POS System",
     description:
       "All-in-one software for restaurants with QR ordering, POS billing, inventory management and analytics.",
     images: ["/og-image.png"],

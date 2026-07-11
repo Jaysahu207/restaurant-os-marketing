@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const plans = [
   {
     name: "Starter",
-    price: "₹299",
+    price: "₹499",
     oldPrice: "₹599",
     description:
       "Perfect for cafes, food stalls, and small restaurants starting digital ordering.",
@@ -33,7 +33,7 @@ const plans = [
 
   {
     name: "Pro",
-    price: "₹699",
+    price: "₹799",
     oldPrice: "₹1499",
     description:
       "Best for growing restaurants that need smart management and automation.",
